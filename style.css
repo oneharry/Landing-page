@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(245, 240, 240);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(224, 220, 220);
+}
+.nav-item {
+    padding: 5px;
+}
+#header {
+    background-color: rgb(245, 240, 240);
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+.card {
+    width: 300px;
+    background-color: rgb(245, 240, 240);
+}
+.card-header {
+    background-color: rgb(224, 220, 220);
+}
+#pricing {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+#info, #content {
+    margin: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+     footer {
+        width:930px ;
+        margin: 0 auto;
+        
+    }
+#pricing {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    margin: 7px;
+    width: 300px;
+}
+ }
